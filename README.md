@@ -1,4 +1,4 @@
-# bWell Log Merger
+# bwell_logmerger
 
 A Python tool for merging multiple JSON log files from the National Research Council's [bWell](https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/bwell) platform into a single consolidated log file.
 
@@ -11,7 +11,7 @@ This tool merges log records from multiple JSON files while preserving the origi
 ### Basic Usage
 
 ```bash
-python bwell_logmerger.py -i file1.json file2.json -o merged_output.json
+python log_merger.py -i file1.json file2.json -o merged_output.json
 ```
 
 ### Options
@@ -25,12 +25,12 @@ python bwell_logmerger.py -i file1.json file2.json -o merged_output.json
 
 Merge two log files:
 ```bash
-python bwell_logmerger.py -i log1.json log2.json -o merged.json
+python log_merger.py -i log1.json log2.json -o merged.json
 ```
 
 Merge multiple files with pretty formatting:
 ```bash
-python bwell_logmerger.py -i log1.json log2.json log3.json -o merged.json --pretty
+python log_merger.py -i log1.json log2.json log3.json -o merged.json --pretty
 ```
 
 ## Input Format
