@@ -2,8 +2,6 @@
 
 A Python tool for merging multiple JSON log files from the National Research Council's [bWell](https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/bwell) platform into a single consolidated log file.
 
-## Description
-
 This tool merges log records from multiple JSON files while preserving the original schema structure. The merged output maintains metadata information about the source files and supports recursive merging (merging already-merged files).
 
 ## Usage
