@@ -1,4 +1,4 @@
-# bwell_logmerger
+# bwell-logmerger
 
 A Python tool for merging multiple JSON log files from the National Research Council's [bWell](https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/bwell) platform into a single consolidated log file.
 
